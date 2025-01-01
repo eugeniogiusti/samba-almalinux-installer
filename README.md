@@ -23,7 +23,7 @@ This script automates the setup and configuration of a Samba file server on a Li
 
 - Root privileges to execute the script.
 
-- Basic understanding of Linux file permissions and networking.
+- VM with 2core, 2gb ram, 32gb hdd/ssd
 
 
 ## How to Run the Script
