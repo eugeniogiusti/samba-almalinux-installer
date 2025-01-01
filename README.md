@@ -51,8 +51,16 @@ This script automates the setup and configuration of a Samba file server on a Li
 
 
 5. Access to the share:
+
+![image](https://github.com/user-attachments/assets/2ae12d3e-6083-4d9f-8aa3-10fc91fd546e)
+
+![image](https://github.com/user-attachments/assets/d0895469-5af9-42ff-a812-a8255bd0a95b)
+
+![image](https://github.com/user-attachments/assets/495f35c9-5d05-47de-a2f6-c748581ce73a)
+
    ```bash
    \\<SERVER-IP>\share   # for Windows machine
    smb://<SERVER-IP>/share # for Linux machine
    Username: samba
    Password: samba (Change it using smbpasswd samba).
+   
