@@ -10,7 +10,7 @@ fi
 dnf update -y
 
 # Install Samba
-dnf install samba samba-common samba-client -y
+dnf install samba samba-common samba-client policycoreutils-python-utils -y
 
 # Create share directory
 mkdir -p /opt/share
