@@ -34,7 +34,7 @@ This script automates the setup and configuration of a Samba file server on a Li
    dnf update -y
    dnf install git
 
-2. Clone the repository
+2. Clone the repository:
    ```bash
    git clone https://github.com/eugeniogiusti/samba-almalinux-installer.git
    cd samba-almalinux-installer
