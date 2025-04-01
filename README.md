@@ -1,6 +1,15 @@
 # samba-almalinux-installer
 A bash script for automated Samba server installation and configuration on AlmaLinux 9.5
 
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/eugeniogiusti/samba-almalinux-installer)
+![License](https://img.shields.io/github/license/eugeniogiusti/samba-almalinux-installer)
+![Top Language](https://img.shields.io/github/languages/top/eugeniogiusti/samba-almalinux-installer)
+![Platform](https://img.shields.io/badge/platform-AlmaLinux-blue)
+![Tool](https://img.shields.io/badge/tool-Samba-yellow)
+![Shell Script](https://img.shields.io/badge/made%20with-bash-1f425f.svg)
+
+
 # Introduction
 
 This script automates the setup and configuration of a Samba file server on a Linux machine. It is designed for Almalinux 9.5, but can be adapted for other Red Hat distributions. It is suitable for various environments, such as Raspberry Pi, virtual machines, or physical servers.
@@ -63,4 +72,3 @@ This script automates the setup and configuration of a Samba file server on a Li
    smb://<SERVER-IP>/share # for Linux machine
    Username: samba
    Password: samba (Change it using smbpasswd samba).
-   
